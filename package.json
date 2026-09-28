@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/scoopcell",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scoop digests and cell fingerprints for local integrity checks.",
+  "bin": {
+    "scoopcell": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/scoopcell.git"
+  },
+  "homepage": "https://theworker02.github.io/scoopcell/",
+  "keywords": [
+    "scoop",
+    "cell",
+    "hash",
+    "cli",
+    "toolkit"
+  ]
+}
